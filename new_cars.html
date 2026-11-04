@@ -1,0 +1,446 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Cars - Auto Drive</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f5f8;
+        }
+
+        header {
+            background-color: #06345c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 35px;
+        }
+
+        nav {
+            background-color: #082b49;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 12px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #55c7ff;
+        }
+
+        .banner {
+            background-image: url("https://images.unsplash.com/photo-1503376780353-7e6692767b70");
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            text-align: center;
+            color: white;
+            padding-top: 60px;
+            box-sizing: border-box;
+        }
+
+        .banner h2 {
+            font-size: 38px;
+        }
+
+        .banner p {
+            font-size: 20px;
+        }
+
+        .section {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .section h2 {
+            color: #06345c;
+            font-size: 28px;
+        }
+
+        .cars {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        .car-box {
+            background-color: white;
+            width: 280px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0px 2px 8px #bbbbbb;
+        }
+
+        .car-box img {
+            width: 100%;
+            height: 180px;
+            border-radius: 5px;
+        }
+
+        .car-box h3 {
+            color: #06345c;
+        }
+
+        .car-box p {
+            color: #555555;
+            line-height: 1.5;
+        }
+
+        .car-box a {
+            background-color: #0879bd;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+        }
+
+        .car-box a:hover {
+            background-color: #03436d;
+        }
+
+        .compare {
+            background-color: #dceaf4;
+            padding: 30px;
+            text-align: center;
+        }
+
+        table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th, td {
+            border: 1px solid #aaaaaa;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #06345c;
+            color: white;
+        }
+
+        footer {
+            background-color: #082b49;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+        <h1>AUTO DRIVE</h1>
+        <p>Your Journey, Our Passion</p>
+    </header>
+
+
+    <!-- Navigation Bar -->
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="new_cars.html">New Cars</a>
+        <a href="used_cars.html">Used Cars</a>
+        <a href="offers.html">Offers</a>
+        <a href="services.html">Services</a>
+        <a href="about_us.html">About Us</a>
+        <a href="contact.html">Contact</a>
+
+    </nav>
+
+
+    <!-- Banner -->
+
+    <div class="banner">
+
+        <h2>Explore New Cars</h2>
+
+        <p>Discover the latest cars with modern features and technology.</p>
+
+    </div>
+
+
+    <!-- All New Cars -->
+
+    <div class="section" id="all-cars">
+
+        <h2>All New Cars</h2>
+
+        <p>Explore our collection of new automobiles.</p>
+
+        <div class="cars">
+
+            <div class="car-box">
+
+                <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d" alt="Sports Car">
+
+                <h3>Sports Car</h3>
+
+                <p>Powerful performance with a stylish exterior design.</p>
+
+                <a href="#compare">Compare Car</a>
+
+            </div>
+
+
+            <div class="car-box">
+
+                <img src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b" alt="SUV">
+
+                <h3>Luxury SUV</h3>
+
+                <p>Spacious interiors with comfort and advanced features.</p>
+
+                <a href="#compare">Compare Car</a>
+
+            </div>
+
+
+            <div class="car-box">
+
+                <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2" alt="Sedan">
+
+                <h3>Modern Sedan</h3>
+
+                <p>Perfect combination of elegance and performance.</p>
+
+                <a href="#compare">Compare Car</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Sedans -->
+
+    <div class="section" id="sedans">
+
+        <h2>Sedans</h2>
+
+        <div class="cars">
+
+            <div class="car-box">
+
+                <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d" alt="Sedan">
+
+                <h3>Premium Sedan</h3>
+
+                <p>Comfortable seating, elegant design and smooth performance.</p>
+
+            </div>
+
+            <div class="car-box">
+
+                <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8" alt="Luxury Sedan">
+
+                <h3>Luxury Sedan</h3>
+
+                <p>Modern technology and premium driving experience.</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- SUVs -->
+
+    <div class="section" id="suvs">
+
+        <h2>SUVs</h2>
+
+        <div class="cars">
+
+            <div class="car-box">
+
+                <img src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b" alt="SUV">
+
+                <h3>Family SUV</h3>
+
+                <p>Spacious design suitable for family trips and long journeys.</p>
+
+            </div>
+
+            <div class="car-box">
+
+                <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf" alt="Modern SUV">
+
+                <h3>Modern SUV</h3>
+
+                <p>Strong performance with comfortable interiors.</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Hatchbacks -->
+
+    <div class="section" id="hatchbacks">
+
+        <h2>Hatchbacks</h2>
+
+        <div class="cars">
+
+            <div class="car-box">
+
+                <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2" alt="Hatchback">
+
+                <h3>Compact Hatchback</h3>
+
+                <p>Easy to drive and suitable for city travel.</p>
+
+            </div>
+
+            <div class="car-box">
+
+                <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70" alt="Premium Hatchback">
+
+                <h3>Premium Hatchback</h3>
+
+                <p>Compact design with modern features and comfort.</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Electric Vehicles -->
+
+    <div class="section" id="electric">
+
+        <h2>Electric Vehicles</h2>
+
+        <div class="cars">
+
+            <div class="car-box">
+
+                <img src="https://images.unsplash.com/photo-1560958089-b8a1929cea89" alt="Electric Car">
+
+                <h3>Electric Car</h3>
+
+                <p>Environment-friendly driving with electric power.</p>
+
+            </div>
+
+            <div class="car-box">
+
+                <img src="https://images.unsplash.com/photo-1593941707882-a5bba14938c7" alt="Electric Vehicle">
+
+                <h3>Modern EV</h3>
+
+                <p>Advanced technology with a smooth electric driving experience.</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Compare Cars -->
+
+    <div class="compare" id="compare">
+
+        <h2>Compare Cars</h2>
+
+        <p>Compare different car categories based on their features.</p>
+
+        <table>
+
+            <tr>
+                <th>Car Type</th>
+                <th>Seating Capacity</th>
+                <th>Fuel Type</th>
+                <th>Main Feature</th>
+            </tr>
+
+            <tr>
+                <td>Sedan</td>
+                <td>5</td>
+                <td>Petrol / Diesel</td>
+                <td>Comfort</td>
+            </tr>
+
+            <tr>
+                <td>SUV</td>
+                <td>5-7</td>
+                <td>Petrol / Diesel</td>
+                <td>More Space</td>
+            </tr>
+
+            <tr>
+                <td>Hatchback</td>
+                <td>5</td>
+                <td>Petrol / CNG</td>
+                <td>Compact Design</td>
+            </tr>
+
+            <tr>
+                <td>Electric Car</td>
+                <td>5</td>
+                <td>Electric</td>
+                <td>Zero Tailpipe Emissions</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <h2>AUTO DRIVE</h2>
+
+        <p>Your Journey, Our Passion</p>
+
+        <p>
+            <a href="home.html">Home</a> |
+            <a href="about_us.html">About Us</a> |
+            <a href="contact.html">Contact</a>
+        </p>
+
+        <p>Copyright &copy; 2026 Auto Drive. All Rights Reserved.</p>
+
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,492 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Services - Auto Drive</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f5f8;
+        }
+
+        header {
+            background-color: #06345c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 35px;
+        }
+
+        nav {
+            background-color: #082b49;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 12px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #55c7ff;
+        }
+
+        .banner {
+            background-image: url("https://images.unsplash.com/photo-1486262715619-67b85e0b08d3");
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            text-align: center;
+            color: white;
+            padding-top: 65px;
+            box-sizing: border-box;
+        }
+
+        .banner h2 {
+            font-size: 38px;
+        }
+
+        .banner p {
+            font-size: 20px;
+        }
+
+        .section {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .section h2 {
+            color: #06345c;
+            font-size: 28px;
+        }
+
+        .services {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        .service-box {
+            background-color: white;
+            width: 280px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0px 2px 8px #bbbbbb;
+        }
+
+        .service-box img {
+            width: 100%;
+            height: 180px;
+            border-radius: 5px;
+        }
+
+        .service-box h3 {
+            color: #06345c;
+        }
+
+        .service-box p {
+            color: #555555;
+            line-height: 1.5;
+        }
+
+        .service-box a {
+            background-color: #0879bd;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+        }
+
+        .service-box a:hover {
+            background-color: #03436d;
+        }
+
+        .appointment {
+            background-color: #dceaf4;
+            padding: 35px;
+            text-align: center;
+        }
+
+        .appointment h2 {
+            color: #06345c;
+            font-size: 28px;
+        }
+
+        .appointment form {
+            background-color: white;
+            width: 60%;
+            margin: auto;
+            padding: 25px;
+            border-radius: 8px;
+        }
+
+        .appointment input,
+        .appointment select,
+        .appointment textarea {
+            width: 90%;
+            padding: 12px;
+            margin: 10px;
+            border: 1px solid #aaaaaa;
+            border-radius: 5px;
+        }
+
+        .appointment button {
+            background-color: #0879bd;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .appointment button:hover {
+            background-color: #03436d;
+        }
+
+        footer {
+            background-color: #082b49;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+        <h1>AUTO DRIVE</h1>
+        <p>Your Journey, Our Passion</p>
+    </header>
+
+
+    <!-- Navigation Bar -->
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="new_cars.html">New Cars</a>
+        <a href="used_cars.html">Used Cars</a>
+        <a href="offers.html">Offers</a>
+        <a href="services.html">Services</a>
+        <a href="about_us.html">About Us</a>
+        <a href="contact.html">Contact</a>
+
+    </nav>
+
+
+    <!-- Banner -->
+
+    <div class="banner">
+
+        <h2>Our Car Services</h2>
+
+        <p>Complete care and maintenance for your vehicle.</p>
+
+    </div>
+
+
+    <!-- Service and Maintenance -->
+
+    <div class="section" id="maintenance">
+
+        <h2>Service & Maintenance</h2>
+
+        <p>Keep your vehicle in excellent condition with regular maintenance.</p>
+
+        <div class="services">
+
+            <div class="service-box">
+
+                <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3" alt="Car Maintenance">
+
+                <h3>Regular Maintenance</h3>
+
+                <p>Regular vehicle checkups to maintain performance and safety.</p>
+
+                <a href="#appointment">Book Service</a>
+
+            </div>
+
+
+            <div class="service-box">
+                <img src="https://static.wixstatic.com/media/081a9a_a700f2b4562c4b1da08086679252914a~mv2.jpg/v1/fill/w_1000,h_666,al_c,q_85/081a9a_a700f2b4562c4b1da08086679252914a~mv2.jpg" alt="Oil Inspection" width="300">
+                <h3>Car Inspection</h3>
+
+                <p>Inspection of important vehicle components and systems.</p>
+
+                <a href="#appointment">Book Service</a>
+
+            </div>
+
+
+            <div class="service-box">
+
+                <img src="https://di-uploads-pod42.dealerinspire.com/autogallerychevroletbuickgmc1/uploads/2026/06/man-changing-car-oil.webp" alt="Oil Change">
+
+                <h3>Oil Change</h3>
+
+                <p>Engine oil replacement for better vehicle performance.</p>
+
+                <a href="#appointment">Book Service</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Repairs -->
+
+    <div class="section" id="repairs">
+
+        <h2>Car Repairs</h2>
+
+        <p>Get assistance with different types of vehicle repairs.</p>
+
+        <div class="services">
+
+            <div class="service-box">
+
+                <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3" alt="Engine Repair">
+
+                <h3>Engine Repair</h3>
+
+                <p>Engine inspection and repair for smooth vehicle operation.</p>
+
+                <a href="#appointment">Get Service</a>
+
+            </div>
+
+
+            <div class="service-box">
+
+                <img src="https://images.unsplash.com/photo-1486006920555-c77dcf18193c" alt="Brake Repair">
+
+                <h3>Brake Repair</h3>
+
+                <p>Brake system inspection and repair for safer driving.</p>
+
+                <a href="#appointment">Get Service</a>
+
+            </div>
+
+
+            <div class="service-box">
+
+                <img src="https://images.unsplash.com/photo-1625047509168-a7026f36de04" alt="Car Repair">
+
+                <h3>General Repairs</h3>
+
+                <p>Assistance with common mechanical and vehicle problems.</p>
+
+                <a href="#appointment">Get Service</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Genuine Spare Parts -->
+
+    <div class="section" id="spare-parts">
+
+        <h2>Genuine Spare Parts</h2>
+
+        <p>Explore quality replacement parts for your vehicle.</p>
+
+        <div class="services">
+
+            <div class="service-box">
+
+                <img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc" alt="Engine Parts">
+
+                <h3>Engine Parts</h3>
+
+                <p>Replacement components for vehicle engine systems.</p>
+
+            </div>
+
+
+            <div class="service-box">
+
+                <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3" alt="Car Parts">
+
+                <h3>Mechanical Parts</h3>
+
+                <p>Different mechanical components for vehicle maintenance.</p>
+
+            </div>
+
+
+            <div class="service-box">
+
+                <img src="https://images.unsplash.com/photo-1507136566006-cfc505b114fc" alt="Car Accessories">
+
+                <h3>Car Accessories</h3>
+
+                <p>Useful accessories to improve vehicle convenience and appearance.</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Service Packages -->
+
+    <div class="section" id="packages">
+
+        <h2>Service Packages</h2>
+
+        <p>Choose a service package according to your vehicle requirements.</p>
+
+        <div class="services">
+
+            <div class="service-box">
+
+                <h3>Basic Package</h3>
+
+                <p>General vehicle inspection.</p>
+
+                <p>Engine oil check.</p>
+
+                <p>Tyre pressure check.</p>
+
+                <h3>₹999</h3>
+
+                <a href="#appointment">Book Package</a>
+
+            </div>
+
+
+            <div class="service-box">
+
+                <h3>Standard Package</h3>
+
+                <p>All basic package services.</p>
+
+                <p>Oil and filter replacement.</p>
+
+                <p>Brake inspection.</p>
+
+                <h3>₹1999</h3>
+
+                <a href="#appointment">Book Package</a>
+
+            </div>
+
+
+            <div class="service-box">
+
+                <h3>Premium Package</h3>
+
+                <p>All standard package services.</p>
+
+                <p>Detailed vehicle inspection.</p>
+
+                <p>Interior and exterior cleaning.</p>
+
+                <h3>₹2999</h3>
+
+                <a href="#appointment">Book Package</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Book Appointment -->
+
+    <div class="appointment" id="appointment">
+
+        <h2>Book an Appointment</h2>
+
+        <p>Fill out the form to request a car service appointment.</p>
+
+        <form>
+
+            <input type="text" placeholder="Enter Your Name" required>
+
+            <input type="email" placeholder="Enter Your Email" required>
+
+            <input type="tel" placeholder="Enter Your Phone Number" required>
+
+            <input type="text" placeholder="Enter Car Model" required>
+
+            <select required>
+
+                <option value="">Select Service</option>
+
+                <option>Regular Maintenance</option>
+
+                <option>Car Inspection</option>
+
+                <option>Engine Repair</option>
+
+                <option>Brake Repair</option>
+
+                <option>Genuine Spare Parts</option>
+
+            </select>
+
+            <input type="date" required>
+
+            <textarea rows="4" placeholder="Enter Additional Details"></textarea>
+
+            <br><br>
+
+            <button type="submit">Submit Appointment</button>
+
+        </form>
+
+    </div>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <h2>AUTO DRIVE</h2>
+
+        <p>Your Journey, Our Passion</p>
+
+        <p>
+            <a href="home.html">Home</a> |
+            <a href="about_us.html">About Us</a> |
+            <a href="contact.html">Contact</a>
+        </p>
+
+        <p>Copyright &copy; 2026 Auto Drive. All Rights Reserved.</p>
+
+    </footer>
+
+</body>
+</html>
