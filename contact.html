@@ -174,18 +174,18 @@
         <div class="section">
             <h2>Send Us an Enquiry</h2>
             <form action="https://api.web3forms.com/submit" method="POST">
-                <input type="hidden" name="access_key" value="a1dd8320-8d4a-4827-bc2e-442f58130aef">
+                 <input type="hidden" name="access_key" value="a1dd8320-8d4a-4827-bc2e-442f58130aef">
                 <label>Full Name:</label>
-                <input type="text" placeholder="Enter your name" required>
+                <input type="text", name="name" placeholder="Enter your name" required>
 
                 <label>Email Address:</label>
-                <input type="email" placeholder="Enter your email" required>
+                <input type="email", name-="email" placeholder="Enter your email" required>
 
                 <label>Phone Number:</label>
-                <input type="tel" placeholder="Enter your phone number" required>
+                <input type="tel", name="phone" placeholder="Enter your phone number" required>
 
                 <label>Select Your Enquiry:</label>
-                <select>
+                <select name="Enquiry">
                     <option>Select an option</option>
                     <option>New Car Enquiry</option>
                     <option>Used Car Enquiry</option>
@@ -195,7 +195,7 @@
                 </select>
 
                 <label>Your Message:</label>
-                <textarea placeholder="Write your message here"></textarea>
+                <textarea name="message", placeholder="Write your message here"></textarea>
 
                 <button type="submit">Submit Enquiry</button>
             </form>
